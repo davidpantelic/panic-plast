@@ -1,12 +1,14 @@
 <template>
   <NavBar />
   <RouterView />
+  <SmallFooter />
 </template>
 
 <script setup>
 import { computed, provide } from 'vue';
 import { RouterView } from 'vue-router'
 import NavBar from './components/NavBar.vue'
+import SmallFooter from './components/SmallFooter.vue';
 import { useI18n } from 'vue-i18n';
 import { useHead } from '@unhead/vue'
 

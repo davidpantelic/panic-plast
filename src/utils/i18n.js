@@ -50,7 +50,11 @@ const messages = {
     },
     footer: {
       webdak: 'Izrada veb-sajtova',
-      rights: 'Sva prava zadrzana.'
+      rights: 'Sva prava zadrzana.',
+      acc_badge_alt: 'Pristupacnost bedz',
+      acc_badge_title: 'Ovaj veb-sajt je pristupacan svima.',
+      webdak_badge_alt: 'Webdak Moderna Web Resenja',
+      webdak_badge_title: 'Webdak Izrada veb-sajtova'
     },
     form: {
       title: 'Posaljite nam poruku',
@@ -115,7 +119,11 @@ const messages = {
     },
     footer: {
       webdak: 'Website creation',
-      rights: 'All Rights Reserved.'
+      rights: 'All Rights Reserved.',
+      acc_badge_alt: 'Accessiblity badge',
+      acc_badge_title: 'This website is accessible for everyone.',
+      webdak_badge_alt: 'Webdak Modern Web Solutions',
+      webdak_badge_title: 'Webdak Website Creator'
     },
     form: {
       title: 'Send us a message',
