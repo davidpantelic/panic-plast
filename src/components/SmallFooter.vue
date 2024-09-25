@@ -1,6 +1,6 @@
 <template>
-  <footer class="bg-brand-black text-brand-yellow w-full">
-    <div class="flex flex-wrap gap-5 justify-center items-center p-5 text-center">
+  <footer>
+    <div class="bg-brand-black text-brand-yellow w-full flex flex-wrap gap-5 justify-center items-center p-5 text-center">
       <img src="@/assets/images/accessibility_icon_yellow.png" :alt="t('footer.acc_badge_alt')" :title="t('footer.acc_badge_title')" class="w-20 order-2">
       <div class="w-full md:w-auto md:order-2 order-1">
         <p>Copyright &copy; {{ getCurrentYear }} {{ t('head.title') }}. {{ t('footer.rights') }}</p>

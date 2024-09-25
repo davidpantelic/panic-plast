@@ -48,6 +48,14 @@ const messages = {
       transport_text:
         'Nudimo vam i prevoz plasticnih proizvoda na vasu adresu. Pored prevoza takodje dobijate i instrukcije kako da montirate ili ukopate rezervoar, septicku jamu ili ponton.'
     },
+    contact: {
+      call_us: 'Pozovite nas na',
+      email_us: 'Pisite nam na mejl',
+      location_new_tab_1: 'Lokacija na Google Maps',
+      location_new_tab_2: 'otvara se u novom tabu',
+      mat_broj: 'Matični broj',
+      pib: 'PIB'
+    },
     footer: {
       webdak: 'Izrada veb-sajtova',
       rights: 'Sva prava zadrzana.',
@@ -116,6 +124,14 @@ const messages = {
       transport: 'Delivery to your address',
       transport_text:
         'We also offer transportation of plastic products to your address. In addition to transportation, you also receive instructions on how to mount or bury a tank, septic tank or pontoon.'
+    },
+    contact: {
+      call_us: 'Call us at',
+      email_us: 'Email us at',
+      location_new_tab_1: 'Location on Google Maps',
+      location_new_tab_2: 'opens in a new tab',
+      mat_broj: 'Registration number',
+      pib: 'Tax ID Number'
     },
     footer: {
       webdak: 'Website creation',

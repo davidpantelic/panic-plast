@@ -10,6 +10,9 @@
         <li v-for="tab in navTabs" :key="tab.name">
           <RouterLink :to="tab.path" class="text-xl hover:text-brand-yellow">{{ tab.name }}</RouterLink>
         </li>
+        <li>
+          <RouterLink :to="{ path: '/', hash: '#kontakt' }" class="text-xl hover:text-brand-yellow" active-class="" exact-active-class="">{{ t('nav.contact') }}</RouterLink>
+        </li>
       </ul>
 
       <SocialIcons />
@@ -23,10 +26,13 @@
         <span v-for="index in 3" :key="index" class="w-7 h-[2px] bg-white rounded transition-all duration-300"></span>
       </button>
 
-      <div class="overflow-hidden absolute top-full left-0 right-0">
-        <ul :class="{ 'bg-opacity-90': !isScrolling, [!isBurgerOpen ? 'translate-y-[-100%]' : 'translate-y-0']: true }" class="nav-tabs flex flex-col lg:hidden px-6 pb-2 items-end gap-3 bg-brand-black transition-all" :aria-hidden="!isBurgerOpen">
+      <div class="overflow-hidden absolute top-full left-0 right-0 pointer-events-none">
+        <ul :class="{ 'bg-opacity-90': !isScrolling, [!isBurgerOpen ? 'translate-y-[-100%]' : 'translate-y-0']: true }" class="nav-tabs flex flex-col lg:hidden px-6 pb-2 items-end gap-3 bg-brand-black transition-all pointer-events-auto" :aria-hidden="!isBurgerOpen">
           <li v-for="tab in navTabs" :key="tab.name">
             <RouterLink :to="tab.path" class="text-xl hover:text-brand-yellow" :tabindex="isBurgerOpen ? 0 : -1" @click="toggleBurger">{{ tab.name }}</RouterLink>
+          </li>
+          <li>
+            <RouterLink :to="{ path: '/', hash: '#kontakt' }" class="text-xl hover:text-brand-yellow" active-class="" exact-active-class="">{{ t('nav.contact') }}</RouterLink>
           </li>
         </ul>
       </div>
@@ -78,10 +84,10 @@ const navTabs = computed(() => [
     name: t('nav.about'),
     path: t('nav.about').replace(" ", "-").toLowerCase()
   },
-  {
-    name: t('nav.contact'),
-    path: t('nav.contact').replace(" ", "-").toLowerCase()
-  }
+  // {
+  //   name: t('nav.contact'),
+  //   path: t('nav.contact').replace(" ", "-").toLowerCase()
+  // }
 ]);
 
 const isScrolling = ref(false);
