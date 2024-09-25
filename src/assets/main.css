@@ -122,9 +122,6 @@ div.prod-desc > div {
 }
 
 /* form */
-.ada-form {
-  @apply max-w-96;
-}
 
 .ada-form label {
   @apply mb-1 text-base sm:text-lg lg:text-xl my-1;
