@@ -32,7 +32,7 @@
         <p v-if="currentLocale === 'en'">We are committed to providing <strong>our customers</strong> with the best possible service, and we pride ourselves on our quality products and customer support. Whether you are looking for a septic tank for your home, a reservoir for your farm, or a pontoon for your dock, we have the perfect product to meet your needs.</p>
       </div>
     </div>
-    <a href="/#kontakt" class="btn-2 block w-fit mx-auto !mb-10">{{ t('nav.contact') }}</a>
+    <RouterLink :to="{ path: '/', hash: '#kontakt' }" class="btn-2 block w-fit mx-auto !mb-10" active-class="" exact-active-class="">{{ t('nav.contact') }}</RouterLink>
 
     <TopProds />
 

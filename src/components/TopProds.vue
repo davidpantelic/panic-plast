@@ -19,7 +19,6 @@
 
 <script setup>
 import { computed } from 'vue';
-import { RouterLink } from 'vue-router'
 import { useI18n } from 'vue-i18n';
 import productsJSON from '../../products_db.json';
 
