@@ -32,7 +32,7 @@
             <RouterLink :to="tab.path" class="text-xl hover:text-brand-yellow" :tabindex="isBurgerOpen ? 0 : -1" @click="toggleBurger">{{ tab.name }}</RouterLink>
           </li>
           <li>
-            <RouterLink :to="{ path: '/', hash: '#kontakt' }" class="text-xl hover:text-brand-yellow" active-class="" exact-active-class="">{{ t('nav.contact') }}</RouterLink>
+            <RouterLink :to="{ path: '/', hash: '#kontakt' }" class="text-xl hover:text-brand-yellow" :tabindex="isBurgerOpen ? 0 : -1" @click="toggleBurger" active-class="" exact-active-class="">{{ t('nav.contact') }}</RouterLink>
           </li>
         </ul>
       </div>

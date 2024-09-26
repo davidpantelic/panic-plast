@@ -1,7 +1,7 @@
 <template>
   <ul class="flex items-center gap-2 z-50">
     <li v-for="icon in socIcons" :key="icon.name">
-      <a :href="icon.path" :target="icon.target" class="text-xl p-1 flex justify-center items-center hover:text-brand-black hover:bg-brand-yellow rounded"><i :class="icon.class"></i><span class="sr-only">{{ icon.name }}</span></a>
+      <a :href="icon.path" :target="icon.target" class="text-2xl p-1 flex justify-center items-center hover:text-brand-black hover:bg-brand-yellow rounded"><i :class="icon.class"></i><span class="sr-only">{{ icon.name }}</span></a>
     </li>
   </ul>
 </template>

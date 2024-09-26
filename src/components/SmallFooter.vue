@@ -6,7 +6,7 @@
         <p>Copyright &copy; {{ getCurrentYear }} {{ t('head.title') }}. {{ t('footer.rights') }}</p>
         <p>{{ t('footer.webdak') }} - <a href="mailto:dpdavid156@gmail.com" class="hover:underline">Webdak</a></p>
       </div>
-      <a href="https://google.com" target="_blank" class="hover:rotate-6 transition-all order-3"><img src="@/assets/images/webdak_logo_small.png" :alt="t('footer.webdak_badge_alt')" :title="t('footer.webdak_badge_title')" class="w-20 border-2 border-brand-black bg-brand-black rounded-full"></a>
+      <a href="https://google.com" target="_blank" class="hover:rotate-6 transition-all order-3"><img src="@/assets/images/webdak_logo_small.png" :alt="t('footer.webdak_badge_alt')" :title="t('footer.webdak_badge_title')" class="w-20 rounded-full"></a>
     </div>
   </footer>
 </template>

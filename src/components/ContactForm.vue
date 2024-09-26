@@ -1,5 +1,5 @@
 <template>
-  <div class="ada-form border-2 border-brand-black rounded-lg p-5">
+  <article class="ada-form border-2 border-brand-black rounded-lg p-5">
     <h2 class="mb-5">{{ t('form.title') }}</h2>
     <form @submit.prevent="submitForm" novalidate>
 
@@ -28,7 +28,7 @@
       <!-- Display a success message if the form is submitted successfully -->
       <p class="m-0"><span class="text-[1.3em]">{{ successMessage }}</span>&nbsp;</p>
     </form>
-  </div>
+  </article>
 </template>
 
 <script setup>
@@ -86,8 +86,6 @@ const isFormValid = () => {
 const submitForm = async () => {
   showErrors.value = true;
 
-  successMessage.value = t('form.form_sending');
-
   if (!isFormValid()) {
     const firstInvalidInput = document.querySelector('form [required]:invalid');
     if (firstInvalidInput) {
@@ -97,6 +95,7 @@ const submitForm = async () => {
   }
 
   try {
+    successMessage.value = t('form.form_sending');
     const response = await fetch('http://localhost/webdak-php-mailer/send-email.php', {
       method: 'POST',
       headers: {

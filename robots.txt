@@ -1,0 +1,13 @@
+# Allow all user agents to crawl the site
+User-agent: *
+
+# Block crawlers from accessing specific assets or directories
+Disallow: /node_modules/
+Disallow: /public/
+Disallow: /src/
+
+# Allow all other pages
+Allow: /
+
+# Sitemap reference
+Sitemap: https://yourdomain.com/sitemap.xml

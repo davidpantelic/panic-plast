@@ -99,7 +99,7 @@ button.navbar-toggler:focus:not(:focus-visible) {
 }
 /* burger animation end */
 
-div.hp-cover {
+.hp-cover {
   background-image: url('@/assets/images/products/pc_plasticna_cisterna_5.webp');
   background-repeat: no-repeat;
   background-position: center;
@@ -108,7 +108,7 @@ div.hp-cover {
   border-radius: 0 0 50px 50px;
 }
 
-div.prod-desc > div {
+.prod-desc > * {
   @apply self-stretch flex-grow rounded p-10 bg-white transition-all md:hover:-translate-y-3 md:hover:shadow-xl;
 }
 
