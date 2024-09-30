@@ -1,6 +1,6 @@
 <template>
   <main class="bg-brand-yellow text-brand-black text-center pt-28">
-    <h1>Gallery</h1>
+    <h1>{{ t('nav.gallery') }}</h1>
     <div class="flex flex-wrap items-center justify-center gap-2 p-2 mt-5">
       <img class="w-[240px] h-[240px] grow object-cover border border-brand-black" v-for="(image, index) in images" :key="index" :src="image" alt="" />
     </div>
@@ -17,8 +17,23 @@ const { t } = useI18n();
 const headTitle = computed(() => t('head.title'));
 const pageTitle = computed(() => t('nav.gallery'));
 
+const canonicalLink = ref({
+  rel: 'canonical',
+  href: window.location.origin + '/galerija'
+});
+
+const alternateLink1 = ref({
+  rel: 'alternate',
+  hreflang: 'sr',
+  href: window.location.origin + '/galerija'
+});
+
 useHead({
   title: computed(() => `${pageTitle.value} - ${headTitle.value}`),
+  link: [
+    canonicalLink.value,
+    alternateLink1.value
+  ]
 });
 
 // Use import.meta.glob to import all images from the directory

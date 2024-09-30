@@ -1,0 +1,71 @@
+{
+  "head": {
+    "title": "Panić Plast",
+    "job": "Izrada proizvoda od plastike",
+    "description": "Plasticni rezervoari, plasticne septicke jame, plasticni pontoni, plasticne kace, plasticne cevi. Za domacinstva i proizvodnje. Kvalitetno, povoljno, dugotrajno i ekoloski ispravno."
+  },
+  "nav": {
+    "home": "Pocetna",
+    "products": "Proizvodi",
+    "gallery": "Galerija",
+    "about": "O nama",
+    "contact": "Kontakt",
+    "fb": "Facebook stranica",
+    "ig": "Instagram profil",
+    "email": "E-mail adresa",
+    "phone": "Broj telefona"
+  },
+  "cover": {
+    "actionWord_1": "Povoljni",
+    "actionWord_2": "Kvalitetni",
+    "actionWord_3": "Dugotrajni",
+    "actionWord_4": "Ekoloski",
+    "title": "proizvodi od plastike",
+    "button": "Katalog proizvoda",
+    "scroll": "Skroluj na dole do sledece sekcije"
+  },
+  "prod_desc": {
+    "subtitle_1": "Ekoloski prihvatljivi",
+    "subtitle_2": "Proizvodi za domacinstva, poljopriveru i drugo",
+    "subtitle_3": "Kvalitet i dugotrajnost"
+  },
+  "top_prods": {
+    "title": "Top 3 proizvoda",
+    "button": "Svi proizvodi"
+  },
+  "about": {
+    "about_products": "O proizvodima",
+    "our_products": "Visok kvalitet",
+    "our_products_text": "Naši proizvodi su napravljeni od najkvalitetnijih materijala i dizajnirani su da izdrže najteže uslove životne sredine. Takođe su dizajnirani da se lako instaliraju i održavaju, što garantuje da će trajati dugi niz godina.",
+    "transport": "Prevoz na vasu adresu",
+    "transport_text": "Nudimo vam i prevoz plasticnih proizvoda na vasu adresu. Pored prevoza takodje dobijate i instrukcije kako da montirate ili ukopate rezervoar, septicku jamu ili ponton."
+  },
+  "contact": {
+    "call_us": "Pozovite nas na",
+    "email_us": "Pisite nam na mejl",
+    "location_new_tab_1": "Lokacija na Google Maps",
+    "location_new_tab_2": "otvara se u novom tabu",
+    "mat_broj": "Matični broj",
+    "pib": "PIB"
+  },
+  "footer": {
+    "webdak": "Izrada veb-sajtova",
+    "rights": "Sva prava zadrzana.",
+    "acc_badge_alt": "Pristupacnost bedz",
+    "acc_badge_title": "Ovaj veb-sajt je pristupacan svima.",
+    "webdak_badge_alt": "Webdak Moderna Web Resenja",
+    "webdak_badge_title": "Webdak Izrada veb-sajtova"
+  },
+  "form": {
+    "title": "Posaljite nam poruku",
+    "name": "Ime",
+    "message": "Poruka",
+    "submit": "Posalji",
+    "form_sending": "Poruka se salje...",
+    "success": "Uspesno ste poslali poruku!",
+    "required": "Ovo polje je obavezno",
+    "required_email": "Ispravan email je obavezan",
+    "required_word": "obavezno polje",
+    "optional_word": "opciono polje"
+  }
+}

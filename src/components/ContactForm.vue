@@ -4,14 +4,14 @@
     <form @submit.prevent="submitForm" novalidate>
 
       <div class="form-group">
-        <label>{{ t('form.name') }}: *<span class="sr-only">{{ t('form.required_word') }}</span>
+        <label>{{ t('form.name') }}: * <span class="sr-only">{{ t('form.required_word') }}</span>
           <span v-if="showErrors && !contactForm.name">{{ t('form.required') }}</span>
           <input type="text" v-model="contactForm.name" required />
         </label>
       </div>
 
       <div class="form-group">
-        <label>Email: *<span class="sr-only">{{ t('form.required_word') }}</span>
+        <label>Email: * <span class="sr-only">{{ t('form.required_word') }}</span>
           <span v-if="showErrors && !isValidEmail">{{ t('form.required_email') }}</span>
           <input type="email" v-model="contactForm.email" required />
         </label>

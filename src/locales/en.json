@@ -1,0 +1,72 @@
+{
+  "head": {
+    "title": "Panic Plast",
+    "job": "Production of plastic products",
+    "description": "Plastic tanks, plastic septic tanks, plastic pontoons, plastic tubs, plastic pipes. For households and production. High-quality, affordable, long-lasting and environmentally friendly."
+  },
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "gallery": "Gallery",
+    "about": "About Us",
+    "contact": "Contact",
+    "fb": "Facebook page",
+    "ig": "Instagram profile",
+    "email": "Email address",
+    "phone": "Phone number"
+  },
+  "cover": {
+    "actionWord_1": "Cost-effective",
+    "actionWord_2": "Quality",
+    "actionWord_3": "Long-lasting",
+    "actionWord_4": "Ecological",
+    "title": "plastic products",
+    "button": "Products catalog",
+    "scroll": "Scroll Down to the next section"
+  },
+  "prod_desc": {
+    "subtitle_1": "Environmentally friendly",
+    "subtitle_2": "Products for home, agriculture, and more",
+    "subtitle_3": "Quality and long-lasting"
+  },
+  "top_prods": {
+    "title": "Top 3 products",
+    "button": "All products"
+  },
+  "about": {
+    "about_products": "About products",
+    "about_products_text": "Plastic reservoirs, septic tanks, pontoons and other products are made by spiral winding technology of high-density polyethylene (HDPE) and polypropylene (HDPP). Resistant to impacts, aggressive chemicals, suitable for burying partially or completely, and as such represent an ideal and long-term investment. They are practical, easy to manipulate and install, and they guarantee waterproofness and a long-lasting solution, because the material loses only 5% of its properties after 50 years of use. Any plastic product can be fitted with various accessories such as valves, faucets, level indicators, external or internal threaded connections, overflows, inspection openings, chokes, anchoring feet, climbing frames and everything else according to your needs. /nYou can find more details on the Products page, where all our products are presented.",
+    "our_products": "High quality",
+    "our_products_text": "Our products are made from the highest quality materials and are designed to withstand the toughest environmental conditions. They are also designed to be easy to install and maintain, which ensures that they will last for many years to come.",
+    "transport": "Delivery to your address",
+    "transport_text": "We also offer transportation of plastic products to your address. In addition to transportation, you also receive instructions on how to mount or bury a tank, septic tank or pontoon."
+  },
+  "contact": {
+    "call_us": "Call us at",
+    "email_us": "Email us at",
+    "location_new_tab_1": "Location on Google Maps",
+    "location_new_tab_2": "opens in a new tab",
+    "mat_broj": "Registration number",
+    "pib": "Tax ID Number"
+  },
+  "footer": {
+    "webdak": "Website creation",
+    "rights": "All Rights Reserved.",
+    "acc_badge_alt": "Accessiblity badge",
+    "acc_badge_title": "This website is accessible for everyone.",
+    "webdak_badge_alt": "Webdak Modern Web Solutions",
+    "webdak_badge_title": "Webdak Website Creator"
+  },
+  "form": {
+    "title": "Send us a message",
+    "name": "Name",
+    "message": "Message",
+    "submit": "Submit",
+    "form_sending": "Message is being sent...",
+    "success": "Your message is sent successfully!",
+    "required": "This field is required",
+    "required_email": "A valid email is required",
+    "required_word": "required field",
+    "optional_word": "optional field"
+  }
+}

@@ -55,10 +55,10 @@ header nav a {
   @apply transition-all;
 }
 
-ul.nav-tabs a.router-link-active {
+ul.nav-tabs a.router-link-exact-active {
   color: #fff8dc;
 }
-ul.nav-tabs a.router-link-active:after {
+ul.nav-tabs a.router-link-exact-active:after {
   width: 100%;
 }
 

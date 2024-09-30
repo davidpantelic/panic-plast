@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- Home Page -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
   <url>
     <loc>https://panic-plast.rs/</loc>
     <lastmod>2024-01-01</lastmod>
@@ -8,35 +8,36 @@
     <priority>1.0</priority>
   </url>
 
-  <!-- About Page -->
+  <!-- Serbian Version -->
   <url>
-    <loc>https://panic-plast.rs/about</loc>
-    <lastmod>2024-01-01</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Services Page -->
-  <url>
-    <loc>https://panic-plast.rs/services</loc>
-    <lastmod>2024-01-01</lastmod>
+    <loc>https://panic-plast.rs/kontakt</loc>
+    <lastmod>2024-09-29</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
+    <xhtml:link 
+      rel="alternate" 
+      hreflang="sr" 
+      href="https://panic-plast.rs/kontakt" />
+    <xhtml:link 
+      rel="alternate" 
+      hreflang="en" 
+      href="https://panic-plast.rs/contact" />
   </url>
 
-  <!-- Blog Page -->
-  <url>
-    <loc>https://panic-plast.rs/blog</loc>
-    <lastmod>2024-01-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <!-- Contact Page -->
+  <!-- English Version -->
   <url>
     <loc>https://panic-plast.rs/contact</loc>
-    <lastmod>2024-01-01</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
+    <lastmod>2024-09-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link 
+      rel="alternate" 
+      hreflang="en" 
+      href="https://panic-plast.rs/contact" />
+    <xhtml:link 
+      rel="alternate" 
+      hreflang="sr" 
+      href="https://panic-plast.rs/kontakt" />
   </url>
+
 </urlset>
