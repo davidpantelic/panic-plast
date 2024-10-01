@@ -5,41 +5,73 @@ import GalleryView from '@/views/GalleryView.vue'
 import NotFoundView from '../views/NotFoundView.vue'
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  // history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHistory(),
   routes: [
     {
       path: '/',
-      name: 'home',
-      component: HomeView
+      name: 'home-sr',
+      component: HomeView,
+      meta: { lang: 'sr' }
     },
     {
       path: '/proizvodi',
-      alias: '/products',
-      name: 'products',
-      component: HomeView
+      name: 'products-sr',
+      component: HomeView,
+      meta: { lang: 'sr' }
     },
     {
       path: '/galerija',
-      alias: '/gallery',
-      name: 'gallery',
-      component: GalleryView
+      name: 'gallery-sr',
+      component: GalleryView,
+      meta: { lang: 'sr' }
     },
     {
       path: '/o-nama',
-      alias: '/about-us',
-      name: 'about',
-      component: AboutView
+      name: 'about-sr',
+      component: AboutView,
+      meta: { lang: 'sr' }
     },
-    // {
-    //   path: '/kontakt',
-    //   alias: '/contact',
-    //   name: 'contact',
-    //   component: HomeView
-    // },
     {
       path: '/:catchAll(.*)',
-      name: 'not-found',
-      component: NotFoundView
+      name: 'not-found-sr',
+      component: NotFoundView,
+      meta: { lang: 'sr' }
+    },
+    {
+      path: '/en',
+      children: [
+        {
+          path: '',
+          name: 'home-en',
+          component: HomeView,
+          meta: { lang: 'en' }
+        },
+        {
+          path: 'proizvodi',
+          name: 'products-en',
+          component: HomeView,
+          meta: { lang: 'en' }
+        },
+        {
+          path: 'galerija',
+          name: 'gallery-en',
+          component: GalleryView,
+          meta: { lang: 'en' }
+        },
+        {
+          path: 'o-nama',
+          name: 'about-en',
+          component: AboutView,
+          meta: { lang: 'en' }
+        },
+        {
+          path: '/:catchAll(.*)',
+          name: 'not-found-en',
+          component: NotFoundView,
+          meta: { lang: 'en' }
+        }
+      ]
     }
   ],
   scrollBehavior(to, from, savedPosition) {
