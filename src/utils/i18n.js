@@ -9,7 +9,7 @@ const i18n = createI18n({
   locale: 'sr', // Set the default locale
   fallbackLocale: 'en',
   // fallbackLocale: 'sr',
-  // globalInjection: true,
+  globalInjection: true,
   messages: { sr, en }
 })
 

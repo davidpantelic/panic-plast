@@ -32,7 +32,7 @@
       <RouterLink :to="generateLocalizedPath('/#kontakt')" class="btn-2 block w-fit mx-auto !mb-10" active-class="" exact-active-class="">{{ t('nav.contact') }}</RouterLink>
     </section>
 
-    <!-- <TopProds /> -->
+    <TopProds />
 
     <section class="black-text-box bg-brand-black text-brand-yellow p-[5%] flex gap-x-5 flex-col lg:flex-row text-center lg:text-left">
       <div class="flex flex-wrap gap-y-5 flex-col w-full lg:w-1/2 lg:flex-row justify-center">
@@ -61,7 +61,7 @@
 import { ref, onMounted, onUnmounted } from 'vue';
 import nextElementInList from '@/utils/nextElementInLIst';
 import { useI18n } from 'vue-i18n';
-// import TopProds from '@/components/TopProds.vue';
+import TopProds from '@/components/TopProds.vue';
 import BigFooter from '@/components/BigFooter.vue';
 
 const { t } = useI18n();
