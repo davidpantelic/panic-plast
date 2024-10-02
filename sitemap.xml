@@ -1,43 +1,132 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
+  <!-- Serbian Homepage -->
   <url>
-    <loc>https://panic-plast.rs/</loc>
-    <lastmod>2024-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
-  </url>
-
-  <!-- Serbian Version -->
-  <url>
-    <loc>https://panic-plast.rs/kontakt</loc>
+    <loc>https://panic-plast.rs</loc>
     <lastmod>2024-09-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <xhtml:link 
       rel="alternate" 
       hreflang="sr" 
-      href="https://panic-plast.rs/kontakt" />
+      href="https://panic-plast.rs" />
     <xhtml:link 
       rel="alternate" 
       hreflang="en" 
-      href="https://panic-plast.rs/contact" />
+      href="https://panic-plast.rs/en" />
   </url>
 
-  <!-- English Version -->
+  <!-- English Homepage -->
   <url>
-    <loc>https://panic-plast.rs/contact</loc>
+    <loc>https://panic-plast.rs/en</loc>
     <lastmod>2024-09-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <xhtml:link 
       rel="alternate" 
       hreflang="en" 
-      href="https://panic-plast.rs/contact" />
+      href="https://panic-plast.rs/en" />
     <xhtml:link 
       rel="alternate" 
       hreflang="sr" 
-      href="https://panic-plast.rs/kontakt" />
+      href="https://panic-plast.rs" />
+  </url>
+
+  <!-- Serbian Proizvodi Page -->
+  <url>
+    <loc>https://panic-plast.rs/proizvodi</loc>
+    <lastmod>2024-09-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link 
+      rel="alternate" 
+      hreflang="sr" 
+      href="https://panic-plast.rs/proizvodi" />
+    <xhtml:link 
+      rel="alternate" 
+      hreflang="en" 
+      href="https://panic-plast.rs/en/proizvodi" />
+  </url>
+
+  <!-- English Proizvodi Page -->
+  <url>
+    <loc>https://panic-plast.rs/en/proizvodi</loc>
+    <lastmod>2024-09-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link 
+      rel="alternate" 
+      hreflang="en" 
+      href="https://panic-plast.rs/en/proizvodi" />
+    <xhtml:link 
+      rel="alternate" 
+      hreflang="sr" 
+      href="https://panic-plast.rs/proizvodi" />
+  </url>
+
+  <!-- Serbian Galerija Page -->
+  <url>
+    <loc>https://panic-plast.rs/galerija</loc>
+    <lastmod>2024-09-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link 
+      rel="alternate" 
+      hreflang="sr" 
+      href="https://panic-plast.rs/galerija" />
+    <xhtml:link 
+      rel="alternate" 
+      hreflang="en" 
+      href="https://panic-plast.rs/en/galerija" />
+  </url>
+
+  <!-- English Galerija Page -->
+  <url>
+    <loc>https://panic-plast.rs/en/galerija</loc>
+    <lastmod>2024-09-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link 
+      rel="alternate" 
+      hreflang="en" 
+      href="https://panic-plast.rs/en/galerija" />
+    <xhtml:link 
+      rel="alternate" 
+      hreflang="sr" 
+      href="https://panic-plast.rs/galerija" />
+  </url>
+
+  <!-- Serbian O Nama Page -->
+  <url>
+    <loc>https://panic-plast.rs/o-nama</loc>
+    <lastmod>2024-09-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link 
+      rel="alternate" 
+      hreflang="sr" 
+      href="https://panic-plast.rs/o-nama" />
+    <xhtml:link 
+      rel="alternate" 
+      hreflang="en" 
+      href="https://panic-plast.rs/en/o-nama" />
+  </url>
+
+  <!-- English O Nama Page -->
+  <url>
+    <loc>https://panic-plast.rs/en/o-nama</loc>
+    <lastmod>2024-09-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link 
+      rel="alternate" 
+      hreflang="en" 
+      href="https://panic-plast.rs/en/o-nama" />
+    <xhtml:link 
+      rel="alternate" 
+      hreflang="sr" 
+      href="https://panic-plast.rs/o-nama" />
   </url>
 
 </urlset>
