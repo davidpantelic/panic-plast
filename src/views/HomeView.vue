@@ -8,23 +8,23 @@
     </section>
 
     <section>
-      <div class="prod-desc flex flex-wrap gap-5 md:gap-10 justify-between items-center px-5 pt-[4%] text-center max-w-[1600px] mx-auto">
-        <article class="w-full xl:w-1/4">
+      <div class="prod-desc flex flex-wrap gap-5 md:gap-10 justify-between items-center px-5 pt-[4%] text-center max-w-[1700px] mx-auto">
+        <article class="w-full md:w-1/4 order-2 xl:order-1">
           <h2 class="mb-5">{{ t('prod_desc.subtitle_1') }}</h2>
           <p v-if="$currentLocale.value === 'sr'">Razumemo važnost zaštite životne sredine, zbog čega smo posvećeni proizvodnji <strong>ekološki prihvatljivih</strong> proizvoda. Naši proizvodi su napravljeni od netoksičnih materijala koji se mogu reciklirati, što obezbeđuje minimalan uticaj na životnu sredinu.</p>
           <p v-if="$currentLocale.value === 'en'">We understand the importance of protecting the environment, which is why we are committed to producing <strong>environmentally friendly</strong> products. Our products are made from non-toxic, recyclable materials, which ensures that they have a minimal impact on the environment.</p>
         </article>
-        <article class="w-full md:w-1/4">
+        <article class="w-full xl:w-1/4 order-1 xl:order-2">
           <h2 class="mb-5">{{ t('prod_desc.subtitle_2') }}</h2>
           <p v-if="$currentLocale.value === 'sr'">Nudimo širok spektar visokokvalitetnih plastičnih proizvoda dizajniranih da izdrže najteže životne uslove. Naši proizvodi, uključujući <strong>rezervoare</strong>, <strong>septičke jame</strong>, <strong>prečistače otpadnih voda</strong>, <strong>pontone</strong>, (i još mnogo toga), se prave od najboljih i najotpornijih materijala dostupnih na tržištu.</p>
           <p v-if="$currentLocale.value === 'en'">We offer a wide range of high-quality plastic products designed to withstand the toughest environmental conditions. Our products, including <strong>reservoirs</strong>, <strong>septic tanks</strong>, <strong>wastewater purifiers</strong>, <strong>pontoons</strong>, (and much more), are made from the most durable and weather-resistant materials available on the market.</p>
         </article>
-        <article class="w-full md:w-1/4">
+        <article class="w-full md:w-1/4 order-3 xl:order-3">
           <h2 class="mb-5">{{ t('prod_desc.subtitle_3') }}</h2>
           <p v-if="$currentLocale.value === 'sr'">Naši proizvodi su <strong>napravljeni da traju</strong> i uvereni smo da će premašiti vaša očekivanja. Dizajnirani su tako da izdrže teške vremenske uslove, a otporni su i na UV zračenje, što im omogućava da tokom vremena zadrže izgled i funkcionalnost.</p>
           <p v-if="$currentLocale.value === 'en'">Our products are <strong>built to last</strong>, and we are confident that they will exceed your expectations. They are designed to resist harsh weather conditions, and they are also resistant to UV radiation, which ensures that they maintain their appearance and functionality over time.</p>
         </article>
-        <article class="w-full">
+        <article class="w-full order-4">
           <p v-if="$currentLocale.value === 'sr'">Posvećeni smo pružanju <strong>našim klijentima</strong> najbolju moguću uslugu i ponosni smo na naše kvalitetne proizvode. Bilo da tražite septičku jamu za vaš dom, rezervoar za vašu farmu ili ponton za vaš dok, imamo savršen proizvod koji će zadovoljiti vaše potrebe.</p>
           <p v-if="$currentLocale.value === 'en'">We are committed to providing <strong>our customers</strong> with the best possible service, and we pride ourselves on our quality products and customer support. Whether you are looking for a septic tank for your home, a reservoir for your farm, or a pontoon for your dock, we have the perfect product to meet your needs.</p>
         </article>

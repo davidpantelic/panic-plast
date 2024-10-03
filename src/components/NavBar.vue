@@ -2,7 +2,7 @@
   <header>
     <nav :class="[isScrolling ? 'py-4' : 'py-5 bg-opacity-90']" class="bg-brand-black text-white fixed top-0 w-full flex justify-end px-6 lg:px-10 z-50">
 
-      <RouterLink to="/" class="absolute h-28 sm:h-32 top-2 left-3 hover:scale-105 z-10" active-class="" exact-active-class="">
+      <RouterLink :to="generateLocalizedPath('/')" class="absolute h-28 sm:h-32 top-2 left-3 hover:scale-105 z-10" active-class="" exact-active-class="">
         <img src="@/assets/images/panic_plast.png" alt="Panic Plast" :class="[isScrolling ? 'h-4/5' : 'h-full']" class="inline mr-3 transition-all">
       </RouterLink>
 
