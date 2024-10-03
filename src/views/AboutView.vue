@@ -11,7 +11,7 @@ import { useHead } from '@unhead/vue'
 
 const { t } = useI18n();
 
-const headTitle = computed(() => t('head.title'));
+const headTitle = computed(() => 'Panić Plast');
 const pageTitle = computed(() => t('nav.about'));
 
 useHead({
