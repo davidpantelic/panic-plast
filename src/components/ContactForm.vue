@@ -6,20 +6,20 @@
       <div class="form-group">
         <label>{{ t('form.name') }}: * <span class="sr-only">{{ t('form.required_word') }}</span>
           <span v-if="showErrors && !contactForm.name">{{ t('form.required') }}</span>
-          <input type="text" v-model="contactForm.name" required />
+          <input name="name" type="text" v-model="contactForm.name" autocomplete="name" required />
         </label>
       </div>
 
       <div class="form-group">
         <label>Email: * <span class="sr-only">{{ t('form.required_word') }}</span>
           <span v-if="showErrors && !isValidEmail">{{ t('form.required_email') }}</span>
-          <input type="email" v-model="contactForm.email" required />
+          <input name="email" type="email" v-model="contactForm.email" autocomplete="email" required />
         </label>
       </div>
 
       <div class="form-group">
         <label>{{ t('form.message') }}: <span class="sr-only">{{ t('form.optional_word') }}</span>
-          <textarea v-model="contactForm.message"></textarea>
+          <textarea name="message" v-model="contactForm.message"></textarea>
         </label>
       </div>
 
