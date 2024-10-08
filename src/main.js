@@ -31,9 +31,11 @@ const handleInitialLocaleRedirect = () => {
       path: `/en${currentPath === '/' ? '' : currentPath}`,
       query: router.currentRoute.value.query
     })
+    document.documentElement.lang = 'en'
   } else if (savedLocale === 'sr' && currentPath.startsWith('/en')) {
     // Redirect to Serbian version of the path if saved locale is 'sr' and path has /en
     router.push({ path: currentPath.replace('/en', ''), query: router.currentRoute.value.query })
+    document.documentElement.lang = 'sr'
   }
 }
 
@@ -53,6 +55,7 @@ router.beforeEach((to, from, next) => {
   }
   locale.value = lang
   currentLocale.value = lang
+  document.documentElement.lang = lang
   next()
 })
 

@@ -13,7 +13,8 @@
     "fb": "Facebook page",
     "ig": "Instagram profile",
     "email": "Email address",
-    "phone": "Phone number"
+    "phone": "Phone number",
+    "burger": "Toggle navigation"
   },
   "cover": {
     "actionWord_1": "Cost-effective",

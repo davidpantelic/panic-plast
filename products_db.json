@@ -1,91 +1,91 @@
 {
   "products": {
     "phr": {
-      "name_sr": "Plasticni horizontalni rezervoari",
+      "name_sr": "Plastični horizontalni rezervoari",
       "name_en": "Plastic horizontal tanks",
-      "short_desc_sr": "Plasticni horizontalni ili lezeci rezervoari mogu biti velike zapremine i primene, mogu biti nadzemni (na svojim stopama) ili ukopani delimicno ili celi.",
+      "short_desc_sr": "Plastični horizontalni ili ležeci rezervoari mogu biti velike zapremine i primene, mogu biti nadzemni (na svojim stopama) ili ukopani delimično ili celi.",
       "short_desc_en": "Plastic horizontal or lying tanks can be of large volume and wide application, they can be above ground (on their feet) or partially or completely buried.",
-      "long_desc_sr": "Plasticni horizontalni ili lezeci rezervoari mogu biti velike zapremine i primene, mogu biti nadzemni (na svojim stopama) ili ukopani delimicno ili celi. Najvece zapremine mogu se postici koristeći ovaj tip rezervoara. Pogodni su za sve vrste tecnosti a najvise se koriste za skladistenje vode kod velikih protivpozarnih sistema. Od dodataka mogu imati revezije i priključke, dovode, odvode, oduske, ojačenja, pregrade i drugo. Plasticni horizontalni rezervoari se koriste i kao cisterne, pricvrseni za konstrukciju prikolice. Kao cisterne oni u sebi mogu imati valobrane radi stabilnijeg kretanja.",
+      "long_desc_sr": "Plastični horizontalni ili ležeci rezervoari mogu biti velike zapremine i primene, mogu biti nadzemni (na svojim stopama) ili ukopani delimično ili celi. Najveće zapremine mogu se postići koristeći ovaj tip rezervoara. Pogodni su za sve vrste tečnosti a najviše se koriste za skladištenje vode kod velikih protivpožarnih sistema. Od dodataka mogu imati revezije i priključke, dovode, odvode, oduške, ojačanja, pregrade i drugo. Plastični horizontalni rezervoari se koriste i kao cisterne, pričvršćeni za konstrukciju prikolice. Kao cisterne oni u sebi mogu imati valobrane radi stabilnijeg kretanja.",
       "long_desc_en": "Plastic horizontal or lying tanks can be of large volume and wide application, they can be above ground (on their feet) or partially or completely buried. The largest volumes can be achieved using this type of tank. They are suitable for all types of liquids and are mostly used for storing water in large fire fighting systems. Accessories can include revisions and connections, inlets, outlets, vents, reinforcements, partitions and more. Plastic horizontal tanks are also used as tankers, attached to the construction of the trailer. As tankers, they can have breakwaters in them for more stable movement."
     },
     "pvr": {
-      "name_sr": "Plasticni vertikalni rezervoari",
+      "name_sr": "Plastični vertikalni rezervoari",
       "name_en": "Plastic vertical tanks",
-      "short_desc_sr": "Plasticni vertikalni ili stojeci rezervoari mogu biti velike zapremine i primene, mogu biti nadzemni (na svojim stopama) ili ukopani delimicno ili celi.",
+      "short_desc_sr": "Plastični vertikalni ili stojeći rezervoari mogu biti velike zapremine i primene, mogu biti nadzemni (na svojim stopama) ili ukopani delimično ili celi.",
       "short_desc_en": "Plastic vertical or standing tanks can be of large volume and wide application, they can be above ground (on their feet) or partially or completely buried.",
-      "long_desc_sr": "Plasticni vertikalni ili stojeci rezervoari mogu biti velike zapremine i primene, mogu biti nadzemni (na svojim stopama) ili ukopani delimicno ili celi. Mogu se koristiti za skladistenje raznih tecnosti i supstanci. Od dodataka mogu imati revezije i priključke, dovode, odvode, oduske, ojačenja, nivokaze, merdevine i drugo.",
+      "long_desc_sr": "Plastični vertikalni ili stojeći rezervoari mogu biti velike zapremine i primene, mogu biti nadzemni (na svojim stopama) ili ukopani delimično ili celi. Mogu se koristiti za skladištenje raznih tečnosti i supstanci. Od dodataka mogu imati revezije i priključke, dovode, odvode, oduške, ojačanja, nivokaze, merdevine i drugo.",
       "long_desc_en": "Plastic vertical or standing tanks can be of large volume and wide application, they can be above ground (on their feet) or partially or completely buried. They can be used to store various liquids and substances. Accessories can include revisions and connections, inlets, outlets, vents, reinforcements, level indicators, ladders and more."
     },
     "psj": {
-      "name_sr": "Plasticne septicke jame",
+      "name_sr": "Plastične septičke jame",
       "name_en": "Plastic septic tanks",
-      "short_desc_sr": "Plasticne septicke jame su daleko bolje resenje nego klasicne septicke jame u zemlji.",
+      "short_desc_sr": "Plastične septičke jame su daleko bolje rešenje nego klasične septičke jame u zemlji.",
       "short_desc_en": "Plastic septic tanks are a far better solution than traditional septic tanks in the ground.",
-      "long_desc_sr": "Plasticne septicke jame su daleko bolje resenje nego klasicne septicke jame u zemlji. Plasticna septicka jama se ukopava u zemlju i ne remeti izgled i daleko je laksa za odrzavanje i praznjenje. Moze biti vertikalna ili horizontalna. Od dodataka moze imati dovodnu cev koja odgovara kanalizacionoj mrezi.",
+      "long_desc_sr": "Plastične septičke jame su daleko bolje rešenje nego klasične septičke jame u zemlji. Plastična septička jama se ukopava u zemlju i ne remeti izgled i daleko je lakša za održavanje i pražnjenje. Može biti vertikalna ili horizontalna. Od dodataka može imati dovodnu cev koja odgovara kanalizacionoj mreži.",
       "long_desc_en": "Plastic septic tanks are a far better solution than traditional septic tanks in the ground. A plastic septic tank is buried in the ground and does not disturb the appearance and is much easier to maintain and empty. It can be vertical or horizontal. As an accessory, it can have a supply pipe that matches the sewage network."
     },
     "pc": {
-      "name_sr": "Plasticne cisterne",
+      "name_sr": "Plastične cisterne",
       "name_en": "Plastic tankers",
-      "short_desc_sr": "Plasticna cisterna je slicna kao i horizontalni plasticni rezervoar samo sto je pricvrscena za konstrukciju prikolice.",
+      "short_desc_sr": "Plastična cisterna je slična kao i horizontalni plastični rezervoar samo što je pričvršćena za konstrukciju prikolice.",
       "short_desc_en": "The plastic tanker is similar to the horizontal plastic tank, except that it is attached to the construction of the trailer.",
-      "long_desc_sr": "Plasticna cisterna je slicna kao i horizontalni plasticni rezervoar samo sto je pricvrscena za konstrukciju prikolice. U sebi moze imati valobrane koji sprecavaju talasanje tecnosti i time olaksavaju kretanje prikolice. Primenu nalaze kod prevoza vode, goriva, hemikalija, pesticida i drugih tecnih supstanci. Moze imati dovod, odvod, reviziju, nivokaz i drugo.",
+      "long_desc_sr": "Plastična cisterna je slična kao i horizontalni plastični rezervoar samo što je pričvršćena za konstrukciju prikolice. U sebi može imati valobrane koji sprečavaju talasanje tečnosti i time olakšavaju kretanje prikolice. Primenu nalaze kod prevoza vode, goriva, hemikalija, pesticida i drugih tečnih supstanci. Može imati dovod, odvod, reviziju, nivokaz i drugo.",
       "long_desc_en": "The plastic tanker is similar to the horizontal plastic tank, except that it is attached to the construction of the trailer. It can have breakwaters in it that prevent liquid waves and thus facilitate the movement of the trailer. They are used in the transportation of water, fuel, chemicals, pesticides and other liquid substances. It can have inlet, outlet, revision, level indicator and others."
     },
     "pkc": {
-      "name_sr": "Plasticne kace",
+      "name_sr": "Plastične kace",
       "name_en": "Plastic vertical tubs",
-      "short_desc_sr": "Plasticne kace su nezamenljive kad je u pitanju skladistenje voca, najcesce sljive pred pecenje rakije.",
+      "short_desc_sr": "Plastične kace su nezamenljive kad je u pitanju skladištenje voća, najčešće šljive pred pečenje rakije i komine.",
       "short_desc_en": "Plastic vertical (circular) tubs are irreplaceable when it comes to storing fruit, most often plums, before making brandy.",
-      "long_desc_sr": "Plasticne kace su nezamenljive kad je u pitanju skladistenje voca, najcesce sljive pred pecenje rakije. Plasticne kace u raznim dimenzijama mogu se koristiti i za skladistenje zitarica i drugih proizvoda. Od dodataka mogu imati poklopac, dovod, odvod, odusak, ojacanje i drugo.",
+      "long_desc_sr": "Plastične kace su nezamenljive kad je u pitanju skladištenje voća, najčešće šljive pred pečenje rakije i komine. Plastične kace u raznim dimenzijama mogu se koristiti i za skladištenje zitarica i drugih proizvoda. Od dodataka mogu imati poklopac, dovod, odvod, odušak, ojačanje i drugo.",
       "long_desc_en": "Plastic vertical (circular) tubs are irreplaceable when it comes to storing fruit, most often plums, before making brandy. Plastic tubs in various dimensions can also be used for storing cereals and other products. Accessories can include a cover, supply, drain, exhaust, reinforcement and more."
     },
     "pp": {
-      "name_sr": "Plasticni pontoni",
+      "name_sr": "Plastični pontoni",
       "name_en": "Plastic pontoons",
-      "short_desc_sr": "Plasticni pontoni su najbolja zamena za metalne pontone koji su stetni za vodu i okruzenje.",
+      "short_desc_sr": "Plastični pontoni su najbolja zamena za metalne pontone koji su štetni za vodu i okruženje.",
       "short_desc_en": "Plastic pontoons are the best replacement for metal pontoons that are harmful to water and the environment.",
-      "long_desc_sr": "Plasticni pontoni su najbolja zamena za metalne pontone koji su stetni za vodu i okruzenje. Ekoloski ispravni i otporni na spoljne uticaje i udarce, i kao takvi idealni su za vase splavove, marine i dokove. Laksi su za manipulaciju i odrzavanje.",
+      "long_desc_sr": "Plastični pontoni su najbolja zamena za metalne pontone koji su štetni za vodu i okruženje. Ekološki ispravni i otporni na spoljne uticaje i udarce, i kao takvi idealni su za vaše splavove, marine i dokove. Lakši su za manipulaciju i održavanje.",
       "long_desc_en": "Plastic pontoons are the best replacement for metal pontoons that are harmful to water and the environment. Environmentally sound and resistant to external influences and impacts, and as such they are ideal for your rafts, marinas and docks. They are easy to manipulate and maintain."
     },
     "pka": {
-      "name_sr": "Plasticni katamarani",
+      "name_sr": "Plastični katamarani",
       "name_en": "Plastic catamarans",
-      "short_desc_sr": "Plasticni katamarani su najbolja zamena za metalne pontone koji su stetni za vodu i okruzenje.",
+      "short_desc_sr": "Plastični katamarani su najbolja zamena za metalne pontone koji su štetni za vodu i okruženje.",
       "short_desc_en": "Plastic catamarans are the best replacement for metal catamarans that are harmful to water and the environment.",
-      "long_desc_sr": "Plasticni katamarani su najbolja zamena za metalne pontone koji su stetni za vodu i okruzenje. Ekoloski ispravni i otporni na spoljne uticaje i udarce, i kao takvi idealni su za vase splavove, marine i dokove. Laksi su za manipulaciju i odrzavanje.",
+      "long_desc_sr": "Plastični katamarani su najbolja zamena za metalne pontone koji su štetni za vodu i okruženje. Ekološki ispravni i otporni na spoljne uticaje i udarce, i kao takvi idealni su za vaše splavove, marine i dokove. Lakši su za manipulaciju i održavanje.",
       "long_desc_en": "Plastic catamarans are the best replacement for metal catamarans that are harmful to water and the environment. Environmentally sound and resistant to external influences and impacts, and as such they are ideal for your rafts, marinas and docks. They are easy to manipulate and maintain."
     },
     "ps": {
-      "name_sr": "Plasticni separatori",
+      "name_sr": "Plastični separatori",
       "name_en": "Plastic separators",
-      "short_desc_sr": "Plasticni separatori masti i ulja kako bi odvojili vodu od raznih masti i ulja.",
+      "short_desc_sr": "Plastični separatori masti i ulja kako bi odvojili vodu od raznih masti i ulja.",
       "short_desc_en": "Plastic fat and oil separators to separate water from various fats and oils.",
-      "long_desc_sr": "Plasticni separatori masti i ulja kako bi odvojili vodu od raznih masti i ulja.",
+      "long_desc_sr": "Plastični separatori masti i ulja kako bi odvojili vodu od raznih masti i ulja.",
       "long_desc_en": "Plastic fat and oil separators to separate water from various fats and oils."
     },
     "psh": {
-      "name_sr": "Plasticne sahte",
-      "name_en": "Plasticne Manholes",
-      "short_desc_sr": "Plasticne sahte su dosta bolje resenje nego tradicionalne betonske i livene sahte, lakse su za odrzavanje, prepravke i popravke.",
+      "name_sr": "Plastične šahte",
+      "name_en": "Plastične Manholes",
+      "short_desc_sr": "Plastične šahte su dosta bolje rešenje nego tradicionalne betonske i livene šahte, lakse su za održavanje, prepravke i popravke.",
       "short_desc_en": "Plastic manholes are a much better solution than traditional concrete and cast manholes, they are easier to maintain, modify and repair.",
-      "long_desc_sr": "Plasticne sahte su dosta bolje resenje nego tradicionalne betonske i livene sahte, lakse su za odrzavanje, prepravke i popravke.",
+      "long_desc_sr": "Plastične šahte su dosta bolje rešenje nego tradicionalne betonske i livene šahte, lakse su za održavanje, prepravke i popravke.",
       "long_desc_en": "Plastic manholes are a much better solution than traditional concrete and cast manholes, they are easier to maintain, modify and repair."
     },
     "pce": {
-      "name_sr": "Plasticne cevi",
+      "name_sr": "Plastične cevi",
       "name_en": "Plastic pipes",
-      "short_desc_sr": "Plasticne cevi, lagane za postavljanje, manipulisanje i menjanje, idealne za ventilacije i slicne potrebe.",
+      "short_desc_sr": "Plastične cevi, lagane za postavljanje, manipulisanje i menjanje, idealne za ventilacije i slicne potrebe.",
       "short_desc_en": "Plastic pipes, easy to install, manipulate and change, ideal for ventilation and similar needs.",
-      "long_desc_sr": "Plasticne cevi, lagane za postavljanje, manipulisanje i menjanje, idealne za ventilacije i slicne potrebe.",
+      "long_desc_sr": "Plastične cevi, lagane za postavljanje, manipulisanje i menjanje, idealne za ventilacije i slicne potrebe.",
       "long_desc_en": "Plastic pipes, easy to install, manipulate and change, ideal for ventilation and similar needs."
     },
     "pkd": {
-      "name_sr": "Plasticne kade",
+      "name_sr": "Plastične kade",
       "name_en": "Plastic horizontal tubs",
-      "short_desc_sr": "Plasticne kade za ribu, vodu, hemikalije i drugo. Lako za odrzavanje, ciscenje, dugotrajne i ekoloski ispravne.",
+      "short_desc_sr": "Plastične kade za ribu, vodu, hemikalije i drugo. Lake za održavanje, cišćenje, dugotrajne i ekološki ispravne.",
       "short_desc_en": "Plastic horizontal (rectangular) tubs for fish, water, chemicals and more. Easy to maintain, clean, long-lasting and environmentally sound.",
-      "long_desc_sr": "Plasticne kade za ribu, vodu, hemikalije i drugo. Lako za odrzavanje, ciscenje, dugotrajne i ekoloski ispravne.",
+      "long_desc_sr": "Plastične kade za ribu, vodu, hemikalije i drugo. Lake za održavanje, cišćenje, dugotrajne i ekološki ispravne.",
       "long_desc_en": "Plastic horizontal (rectangular) tubs for fish, water, chemicals and more. Easy to maintain, clean, long-lasting and environmentally sound."
     }
   }

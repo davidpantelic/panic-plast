@@ -8,33 +8,10 @@
 </template>
 
 <script setup>
-import { computed, ref } from 'vue';
+import { ref } from 'vue';
 import { useI18n } from 'vue-i18n';
-import { useHead } from '@unhead/vue'
 
 const { t } = useI18n();
-
-const headTitle = computed(() => 'Panić Plast');
-const pageTitle = computed(() => t('nav.gallery'));
-
-const canonicalLink = ref({
-  rel: 'canonical',
-  href: window.location.origin + '/galerija'
-});
-
-const alternateLink1 = ref({
-  rel: 'alternate',
-  hreflang: 'sr',
-  href: window.location.origin + '/galerija'
-});
-
-useHead({
-  title: computed(() => `${pageTitle.value} - ${headTitle.value}`),
-  link: [
-    canonicalLink.value,
-    alternateLink1.value
-  ]
-});
 
 // Use import.meta.glob to import all images from the directory
 const images = ref([]);

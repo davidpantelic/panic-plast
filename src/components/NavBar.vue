@@ -22,9 +22,11 @@
         <button v-if="$currentLocale.value === 'sr'" @click="switchLanguage('en')" class="h-full rounded border-2 px-1 hover:border-brand-yellow hover:bg-brand-yellow hover:text-brand-black">En</button>
       </div>
 
-      <button :class="[{ 'collapsed': !isBurgerOpen }]" class="lg:hidden navbar-toggler rounded ml-5 flex flex-col items-center justify-center gap-[3px] border-white border-2 px-2 min-w-12 relative z-50" @click="toggleBurger" :aria-expanded="isBurgerOpen" aria-label="Toggle navigation">
+      <button :class="[{ 'collapsed': !isBurgerOpen }]" class="lg:hidden navbar-toggler rounded ml-5 flex flex-col items-center justify-center gap-[3px] border-white border-2 px-2 min-w-12 relative z-50" @click="toggleBurger" :aria-expanded="isBurgerOpen" :aria-label="t('nav.burger')">
         <span v-for="index in 3" :key="index" class="w-7 h-[2px] bg-white rounded transition-all duration-300"></span>
       </button>
+
+      <!-- // ! posle #kontakt klika da se fokusira nesto -->
 
       <div class="overflow-hidden absolute top-full left-0 right-0 pointer-events-none">
         <ul :class="{ 'bg-opacity-90': !isScrolling, [!isBurgerOpen ? 'translate-y-[-100%]' : 'translate-y-0']: true }" class="nav-tabs flex flex-col lg:hidden px-6 pb-2 items-end gap-3 bg-brand-black transition-all pointer-events-auto" :aria-hidden="!isBurgerOpen">

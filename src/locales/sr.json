@@ -2,10 +2,10 @@
   "head": {
     "title": "Panić Plast",
     "job": "Izrada proizvoda od plastike",
-    "description": "Plasticni rezervoari, plasticne septicke jame, plasticni pontoni, plasticne kace, plasticne cevi. Za domacinstva i proizvodnje. Kvalitetno, povoljno, dugotrajno i ekoloski ispravno."
+    "description": "Plastični rezervoari, plastične septičke jame, plastični pontoni, plastične kace, plastične cevi. Za domaćinstva i proizvodnje. Kvalitetno, povoljno, dugotrajno i ekološki ispravno."
   },
   "nav": {
-    "home": "Pocetna",
+    "home": "Početna",
     "products": "Proizvodi",
     "gallery": "Galerija",
     "about": "O nama",
@@ -13,19 +13,20 @@
     "fb": "Facebook stranica",
     "ig": "Instagram profil",
     "email": "E-mail adresa",
-    "phone": "Broj telefona"
+    "phone": "Broj telefona",
+    "burger": "Navigaciona lista sa tabovima"
   },
   "cover": {
     "actionWord_1": "Povoljni",
     "actionWord_2": "Kvalitetni",
     "actionWord_3": "Dugotrajni",
-    "actionWord_4": "Ekoloski",
+    "actionWord_4": "Ekološki",
     "title": "proizvodi od plastike",
     "button": "Katalog proizvoda",
-    "scroll": "Skroluj na dole do sledece sekcije"
+    "scroll": "Skroluj na dole do sledeće sekcije"
   },
   "prod_desc": {
-    "subtitle_1": "Ekoloski prihvatljivi",
+    "subtitle_1": "Ekološki prihvatljivi",
     "subtitle_2": "Proizvodi za farme, domove i drugo",
     "subtitle_3": "Kvalitet i dugotrajnost"
   },
@@ -38,7 +39,7 @@
     "our_products": "Visok kvalitet",
     "our_products_text": "Naši proizvodi su napravljeni od najkvalitetnijih materijala i dizajnirani su da izdrže najteže uslove životne sredine. Takođe su dizajnirani da se lako instaliraju i održavaju, što garantuje da će trajati dugi niz godina.",
     "transport": "Prevoz na vasu adresu",
-    "transport_text": "Nudimo vam i prevoz plasticnih proizvoda na vasu adresu. Pored prevoza takodje dobijate i instrukcije kako da montirate ili ukopate rezervoar, septicku jamu ili ponton."
+    "transport_text": "Nudimo vam i prevoz plastičnih proizvoda na vasu adresu. Pored prevoza takodje dobijate i instrukcije kako da montirate ili ukopate rezervoar, septičku jamu ili ponton."
   },
   "contact": {
     "call_us": "Pozovite nas na",
@@ -50,19 +51,19 @@
   },
   "footer": {
     "webdak": "Izrada veb-sajtova",
-    "rights": "Sva prava zadrzana.",
-    "acc_badge_alt": "Pristupacnost bedz",
-    "acc_badge_title": "Ovaj veb-sajt je pristupacan svima.",
-    "webdak_badge_alt": "Webdak Moderna Web Resenja",
+    "rights": "Sva prava zadržana.",
+    "acc_badge_alt": "Pristupačnost bedž",
+    "acc_badge_title": "Ovaj veb-sajt je pristupačan svima.",
+    "webdak_badge_alt": "Webdak Moderna Web Rešenja",
     "webdak_badge_title": "Webdak Izrada veb-sajtova"
   },
   "form": {
-    "title": "Posaljite nam poruku",
+    "title": "Pošaljite nam poruku",
     "name": "Ime",
     "message": "Poruka",
-    "submit": "Posalji",
-    "form_sending": "Poruka se salje...",
-    "success": "Uspesno ste poslali poruku!",
+    "submit": "Pošalji",
+    "form_sending": "Poruka se šalje...",
+    "success": "Uspešno ste poslali poruku!",
     "required": "Ovo polje je obavezno",
     "required_email": "Ispravan email je obavezan",
     "required_word": "obavezno polje",
