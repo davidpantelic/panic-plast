@@ -1,7 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
-import AboutView from '../views/AboutView.vue'
+import ProductsView from '@/views/ProductsView.vue'
 import GalleryView from '@/views/GalleryView.vue'
+import AboutView from '../views/AboutView.vue'
 import NotFoundView from '../views/NotFoundView.vue'
 
 const router = createRouter({
@@ -17,7 +18,7 @@ const router = createRouter({
     {
       path: '/proizvodi',
       name: 'products-sr',
-      component: HomeView,
+      component: ProductsView,
       meta: { lang: 'sr' }
     },
     {
@@ -50,7 +51,7 @@ const router = createRouter({
         {
           path: 'proizvodi',
           name: 'products-en',
-          component: HomeView,
+          component: ProductsView,
           meta: { lang: 'en' }
         },
         {

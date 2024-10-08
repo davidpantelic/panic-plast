@@ -69,5 +69,9 @@
     "required_email": "A valid email is required",
     "required_word": "required field",
     "optional_word": "optional field"
+  },
+  "404_page": {
+    "title": "404 Not Found",
+    "text": "This page does not exist."
   }
 }

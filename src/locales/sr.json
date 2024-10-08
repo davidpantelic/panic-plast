@@ -68,5 +68,9 @@
     "required_email": "Ispravan email je obavezan",
     "required_word": "obavezno polje",
     "optional_word": "opciono polje"
+  },
+  "404_page": {
+    "title": "404 Nije pronađeno",
+    "text": "Ova stranica ne postoji."
   }
 }
