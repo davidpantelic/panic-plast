@@ -11,7 +11,7 @@
           <RouterLink :to="generateLocalizedPath(tab.path)" class="text-xl hover:text-brand-yellow">{{ tab.name }}</RouterLink>
         </li>
         <li>
-          <RouterLink :to="generateLocalizedPath('/#kontakt')" class="text-xl hover:text-brand-yellow" active-class="" exact-active-class="">{{ t('nav.contact') }}</RouterLink>
+          <RouterLink :to="generateLocalizedPath('/#kontakt')" @click="focusKontakt" class="text-xl hover:text-brand-yellow" active-class="" exact-active-class="">{{ t('nav.contact') }}</RouterLink>
         </li>
       </ul>
 
@@ -26,15 +26,13 @@
         <span v-for="index in 3" :key="index" class="w-7 h-[2px] bg-white rounded transition-all duration-300"></span>
       </button>
 
-      <!-- // ! posle #kontakt klika da se fokusira nesto -->
-
       <div class="overflow-hidden absolute top-full left-0 right-0 pointer-events-none">
         <ul :class="{ 'bg-opacity-90': !isScrolling, [!isBurgerOpen ? 'translate-y-[-100%]' : 'translate-y-0']: true }" class="nav-tabs flex flex-col lg:hidden px-6 pb-2 items-end gap-3 bg-brand-black transition-all pointer-events-auto" :aria-hidden="!isBurgerOpen">
           <li v-for="tab in navTabs" :key="tab.name">
             <RouterLink :to="generateLocalizedPath(tab.path)" class="text-xl hover:text-brand-yellow" :tabindex="isBurgerOpen ? 0 : -1" @click="toggleBurger">{{ tab.name }}</RouterLink>
           </li>
           <li>
-            <RouterLink :to="generateLocalizedPath('/#kontakt')" class="text-xl hover:text-brand-yellow" :tabindex="isBurgerOpen ? 0 : -1" @click="toggleBurger" active-class="" exact-active-class="">{{ t('nav.contact') }}</RouterLink>
+            <RouterLink :to="generateLocalizedPath('/#kontakt')" class="text-xl hover:text-brand-yellow" :tabindex="isBurgerOpen ? 0 : -1" @click="toggleBurger(); focusKontakt()" active-class="" exact-active-class="">{{ t('nav.contact') }}</RouterLink>
           </li>
         </ul>
       </div>
@@ -79,6 +77,14 @@ const handleScroll = () => {
 // Function to toggle the burger menu
 function toggleBurger() {
   isBurgerOpen.value = !isBurgerOpen.value;
+}
+
+function focusKontakt() {
+  setTimeout(() => {
+    const contactSection = document.querySelector('#kontakt');
+    contactSection.setAttribute('tabindex', '-1');
+    contactSection.focus();
+  }, 200);
 }
 
 onMounted(() => {

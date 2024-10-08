@@ -29,7 +29,7 @@
           <p v-if="$currentLocale.value === 'en'">We are committed to providing <strong>our customers</strong> with the best possible service, and we pride ourselves on our quality products and customer support. Whether you are looking for a septic tank for your home, a reservoir for your farm, or a pontoon for your dock, we have the perfect product to meet your needs.</p>
         </article>
       </div>
-      <RouterLink :to="($currentLocale.value === 'en' ? '/en' : '') + '/#kontakt'" class="btn-2 block w-fit mx-auto !mb-10" active-class="" exact-active-class="">{{ t('nav.contact') }}</RouterLink>
+      <RouterLink :to="($currentLocale.value === 'en' ? '/en' : '') + '/#kontakt'" @click="focusKontakt" class="btn-2 block w-fit mx-auto !mb-10" active-class="" exact-active-class="">{{ t('nav.contact') }}</RouterLink>
     </section>
 
     <TopProds />
@@ -89,4 +89,12 @@ const scrollToNextSection = () => {
   const section = document.querySelector('main > section:not(:first-of-type)');
   section.scrollIntoView({ behavior: 'smooth' });
 };
+
+function focusKontakt() {
+  setTimeout(() => {
+    const contactSection = document.querySelector('#kontakt');
+    contactSection.setAttribute('tabindex', '-1');
+    contactSection.focus();
+  }, 200);
+}
 </script>
