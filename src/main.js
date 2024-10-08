@@ -88,9 +88,9 @@ app.config.globalProperties.switchLanguage = (lang) => {
     console.error('Error: Current route name is undefined.')
   }
 }
-
 // Global function to generate localized paths
 app.config.globalProperties.generateLocalizedPath = (path) => {
+  // console.log(path)
   if (currentLocale.value === 'en') {
     // Add `/en` prefix for English routes
     return `/en${path === '/' ? '' : path}`
