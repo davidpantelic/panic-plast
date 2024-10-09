@@ -14,7 +14,8 @@
     "ig": "Instagram profile",
     "email": "Email address",
     "phone": "Phone number",
-    "burger": "Toggle navigation"
+    "burger": "Toggle navigation",
+    "skip-link": "Skip to main content"
   },
   "cover": {
     "actionWord_1": "Cost-effective",

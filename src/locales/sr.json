@@ -14,7 +14,8 @@
     "ig": "Instagram profil",
     "email": "E-mail adresa",
     "phone": "Broj telefona",
-    "burger": "Navigaciona lista sa tabovima"
+    "burger": "Navigaciona lista sa tabovima",
+    "skip-link": "Preskoči sve do glavnog dela"
   },
   "cover": {
     "actionWord_1": "Povoljni",
