@@ -3,130 +3,130 @@
 
   <!-- Serbian Homepage -->
   <url>
-    <loc>https://panic-plast.rs</loc>
+    <loc>https://panic-plast.vercel.app</loc>
     <lastmod>2024-09-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <xhtml:link 
       rel="alternate" 
       hreflang="sr" 
-      href="https://panic-plast.rs" />
+      href="https://panic-plast.vercel.app" />
     <xhtml:link 
       rel="alternate" 
       hreflang="en" 
-      href="https://panic-plast.rs/en" />
+      href="https://panic-plast.vercel.app/en" />
   </url>
 
   <!-- English Homepage -->
   <url>
-    <loc>https://panic-plast.rs/en</loc>
+    <loc>https://panic-plast.vercel.app/en</loc>
     <lastmod>2024-09-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <xhtml:link 
       rel="alternate" 
       hreflang="en" 
-      href="https://panic-plast.rs/en" />
+      href="https://panic-plast.vercel.app/en" />
     <xhtml:link 
       rel="alternate" 
       hreflang="sr" 
-      href="https://panic-plast.rs" />
+      href="https://panic-plast.vercel.app" />
   </url>
 
   <!-- Serbian Proizvodi Page -->
   <url>
-    <loc>https://panic-plast.rs/proizvodi</loc>
+    <loc>https://panic-plast.vercel.app/proizvodi</loc>
     <lastmod>2024-09-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link 
       rel="alternate" 
       hreflang="sr" 
-      href="https://panic-plast.rs/proizvodi" />
+      href="https://panic-plast.vercel.app/proizvodi" />
     <xhtml:link 
       rel="alternate" 
       hreflang="en" 
-      href="https://panic-plast.rs/en/proizvodi" />
+      href="https://panic-plast.vercel.app/en/proizvodi" />
   </url>
 
   <!-- English Proizvodi Page -->
   <url>
-    <loc>https://panic-plast.rs/en/proizvodi</loc>
+    <loc>https://panic-plast.vercel.app/en/proizvodi</loc>
     <lastmod>2024-09-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link 
       rel="alternate" 
       hreflang="en" 
-      href="https://panic-plast.rs/en/proizvodi" />
+      href="https://panic-plast.vercel.app/en/proizvodi" />
     <xhtml:link 
       rel="alternate" 
       hreflang="sr" 
-      href="https://panic-plast.rs/proizvodi" />
+      href="https://panic-plast.vercel.app/proizvodi" />
   </url>
 
   <!-- Serbian Galerija Page -->
   <url>
-    <loc>https://panic-plast.rs/galerija</loc>
+    <loc>https://panic-plast.vercel.app/galerija</loc>
     <lastmod>2024-09-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link 
       rel="alternate" 
       hreflang="sr" 
-      href="https://panic-plast.rs/galerija" />
+      href="https://panic-plast.vercel.app/galerija" />
     <xhtml:link 
       rel="alternate" 
       hreflang="en" 
-      href="https://panic-plast.rs/en/galerija" />
+      href="https://panic-plast.vercel.app/en/galerija" />
   </url>
 
   <!-- English Galerija Page -->
   <url>
-    <loc>https://panic-plast.rs/en/galerija</loc>
+    <loc>https://panic-plast.vercel.app/en/galerija</loc>
     <lastmod>2024-09-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link 
       rel="alternate" 
       hreflang="en" 
-      href="https://panic-plast.rs/en/galerija" />
+      href="https://panic-plast.vercel.app/en/galerija" />
     <xhtml:link 
       rel="alternate" 
       hreflang="sr" 
-      href="https://panic-plast.rs/galerija" />
+      href="https://panic-plast.vercel.app/galerija" />
   </url>
 
   <!-- Serbian O Nama Page -->
   <url>
-    <loc>https://panic-plast.rs/o-nama</loc>
+    <loc>https://panic-plast.vercel.app/o-nama</loc>
     <lastmod>2024-09-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link 
       rel="alternate" 
       hreflang="sr" 
-      href="https://panic-plast.rs/o-nama" />
+      href="https://panic-plast.vercel.app/o-nama" />
     <xhtml:link 
       rel="alternate" 
       hreflang="en" 
-      href="https://panic-plast.rs/en/o-nama" />
+      href="https://panic-plast.vercel.app/en/o-nama" />
   </url>
 
   <!-- English O Nama Page -->
   <url>
-    <loc>https://panic-plast.rs/en/o-nama</loc>
+    <loc>https://panic-plast.vercel.app/en/o-nama</loc>
     <lastmod>2024-09-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link 
       rel="alternate" 
       hreflang="en" 
-      href="https://panic-plast.rs/en/o-nama" />
+      href="https://panic-plast.vercel.app/en/o-nama" />
     <xhtml:link 
       rel="alternate" 
       hreflang="sr" 
-      href="https://panic-plast.rs/o-nama" />
+      href="https://panic-plast.vercel.app/o-nama" />
   </url>
 
 </urlset>
