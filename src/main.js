@@ -65,6 +65,8 @@ router.beforeEach((to, from, next) => {
 router.afterEach((to) => {
   // Update the route whenever navigation occurs
   route.value = to
+  // vercel analytics
+  window.umami?.trackView(to.fullPath)
 })
 
 // Global function to switch language and update route
