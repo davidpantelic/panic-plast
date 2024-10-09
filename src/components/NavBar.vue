@@ -1,4 +1,5 @@
 <template>
+  <a href="#main-content" class="skip-content-link">Skip to main content</a>
   <header>
     <nav :class="[isScrolling ? 'py-4' : 'py-5 bg-opacity-90']" class="bg-brand-black text-white fixed top-0 w-full flex justify-end px-6 lg:px-10 z-50">
 

@@ -18,7 +18,7 @@
 
     </div>
     <article>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d446936.1872260111!2d19.58135747271885!3d44.360042113931975!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDTCsDIwJzA3LjQiTiAxOcKwMzgnNDQuNyJF!5e0!3m2!1sen!2srs!4v1727288961385!5m2!1sen!2srs" class="w-full h-full min-h-96 border-t-2 border-brand-black" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <iframe title="Google Maps" src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d446936.1872260111!2d19.58135747271885!3d44.360042113931975!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDTCsDIwJzA3LjQiTiAxOcKwMzgnNDQuNyJF!5e0!3m2!1sen!2srs!4v1727288961385!5m2!1sen!2srs" class="w-full h-full min-h-96 border-t-2 border-brand-black" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </article>
   </section>
   <!-- <GoogleMap /> -->

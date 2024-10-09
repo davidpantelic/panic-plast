@@ -19,7 +19,7 @@
 
       <div class="form-group">
         <label>{{ t('form.message') }}: <span class="sr-only">{{ t('form.optional_word') }}</span>
-          <textarea name="message" v-model="contactForm.message"></textarea>
+          <textarea name="message" v-model="contactForm.message" autocomplete="on"></textarea>
         </label>
       </div>
 

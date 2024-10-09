@@ -7,7 +7,7 @@
       <button @click="scrollToNextSection()" class="absolute bottom-5 left-1/2 -translate-x-1/2 text-white text-2xl animate-bounce" tabindex="-1" aria-hidden="true"><i class="pi pi-arrow-down"></i><span class="sr-only">{{ t('cover.scroll') }}</span></button>
     </section>
 
-    <section>
+    <section id="main-content">
       <div class="prod-desc flex flex-wrap gap-5 md:gap-10 justify-between items-center px-5 pt-[4%] text-center max-w-[1700px] mx-auto">
         <article class="w-full md:w-1/4 order-2 xl:order-1">
           <h2 class="mb-5">{{ t('prod_desc.subtitle_1') }}</h2>
