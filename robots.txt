@@ -1,13 +1,11 @@
 # Allow all user agents to crawl the site
 User-agent: *
 
-# Block crawlers from accessing specific assets or directories
-Disallow: /node_modules/
-Disallow: /public/
-Disallow: /src/
+# Disallow access to hidden paths or specific directories
+Disallow: /private/
 
-# Allow all other pages
-Allow: /
+# No need to block local project folders like /src/ or /node_modules/
+# Only block directories that actually exist in the deployed version
 
 # Sitemap reference
 Sitemap: https://panic-plast.vercel.app/sitemap.xml
