@@ -10,4 +10,4 @@ Disallow: /src/
 Allow: /
 
 # Sitemap reference
-Sitemap: https://yourdomain.com/sitemap.xml
+Sitemap: https://panic-plast.vercel.app/sitemap.xml
