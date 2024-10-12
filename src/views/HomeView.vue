@@ -1,10 +1,10 @@
 <template>
   <main class="bg-brand-green">
-    <section class="hp-cover w-full h-screen flex items-center justify-center flex-col bg-fixed bg-brand-black">
+    <section class="hp-cover w-full h-[60vh] md:h-screen flex items-center justify-center flex-col bg-fixed bg-brand-black relative">
       <h1 class="text-white text-center"><span class="block mb-2 text-[1.5em]">{{ actionWord }}</span> {{ t('cover.title') }}</h1>
       <h2 class="mt-5 text-white uppercase">Panić Plast</h2>
       <RouterLink :to="($currentLocale.value === 'en' ? '/en' : '') + '/proizvodi'" class="btn-1" active-class="" exact-active-class="">{{ t('cover.button') }}</RouterLink>
-      <button @click="scrollToNextSection()" class="absolute bottom-5 left-1/2 -translate-x-1/2 text-white text-2xl animate-bounce" tabindex="-1" aria-hidden="true"><i class="pi pi-arrow-down"></i><span class="sr-only">{{ t('cover.scroll') }}</span></button>
+      <i @click="scrollToNextSection()" class="absolute bottom-5 text-white text-2xl animate-bounce pi pi-arrow-down cursor-pointer"><span class="sr-only text-white">{{ t('cover.scroll') }}</span></i>
     </section>
 
     <section id="main-content">

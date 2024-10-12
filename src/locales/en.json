@@ -1,6 +1,6 @@
 {
   "head": {
-    "title": "Panic Plast",
+    "title": "Panić Plast",
     "job": "Production of plastic products",
     "description": "Plastic tanks, plastic septic tanks, plastic pontoons, plastic tubs, plastic pipes. For households and production. High-quality, affordable, long-lasting and environmentally friendly."
   },
@@ -14,7 +14,8 @@
     "ig": "Instagram profile",
     "email": "Email address",
     "phone": "Phone number",
-    "burger": "Toggle navigation"
+    "burger": "Toggle navigation",
+    "skip-link": "Skip to main content"
   },
   "cover": {
     "actionWord_1": "Cost-effective",

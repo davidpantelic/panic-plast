@@ -1,11 +1,11 @@
 <template>
-  <a href="#main-content" class="skip-content-link">Skip to main content</a>
+  <a href="#main-content" class="skip-content-link">{{ t('nav.skip-link') }}</a>
   <header>
     <nav :class="[isScrolling ? 'py-4' : 'py-5 bg-opacity-90']" class="bg-brand-black text-white fixed top-0 w-full flex justify-end px-6 lg:px-10 z-50">
 
-      <RouterLink :to="generateLocalizedPath('/')" class="absolute h-28 sm:h-32 top-2 left-3 hover:scale-105 z-10" active-class="" exact-active-class="">
-        <img src="@/assets/images/panic_plast.png" alt="Panic Plast" :class="[isScrolling ? 'h-4/5' : 'h-full']" class="inline mr-3 transition-all">
-      </RouterLink>
+      <button @click="homepageTop" class="absolute h-28 sm:h-32 top-2 left-3 hover:scale-105 z-10 transition-all">
+        <img src="@/assets/images/panic_plast.png" alt="Panić Plast" :class="[isScrolling ? 'h-4/5' : 'h-full']" class="inline mr-3 transition-all">
+      </button>
 
       <ul class="nav-tabs items-center gap-5 hidden lg:flex mr-5">
         <li v-for="tab in navTabs" :key="tab.name">
@@ -86,6 +86,10 @@ function focusKontakt() {
     contactSection.setAttribute('tabindex', '-1');
     contactSection.focus();
   }, 200);
+}
+
+function homepageTop() {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
 onMounted(() => {

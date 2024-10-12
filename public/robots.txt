@@ -1,0 +1,11 @@
+# Allow all user agents to crawl the site
+User-agent: *
+
+# Disallow access to hidden paths or specific directories
+Disallow: /private/
+
+# No need to block local project folders like /src/ or /node_modules/
+# Only block directories that actually exist in the deployed version
+
+# Sitemap reference
+Sitemap: https://panic-plast.rs/sitemap.xml
