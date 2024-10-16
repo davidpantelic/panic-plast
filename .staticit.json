@@ -1,0 +1,5 @@
+{
+  "routes": ["/", "/proizvodi", "/en/proizvodi", "/o-nama", "/en/o-nama"],
+  "outDir": "./dist",
+  "port": 8080
+}
